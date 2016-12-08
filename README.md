@@ -1,4 +1,4 @@
-# #  Select Vertices Sample  for WinForms
+# Select Vertices Sample for WinForms
 
 ### Description
 
