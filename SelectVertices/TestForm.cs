@@ -28,10 +28,10 @@ namespace SelectVertices
             ThinkGeo.MapSuite.WinForms.WorldMapKitWmsDesktopOverlay worldMapKitDesktopOverlay = new ThinkGeo.MapSuite.WinForms.WorldMapKitWmsDesktopOverlay();
             winformsMap1.Overlays.Add(worldMapKitDesktopOverlay);
 
-            string fileName1 = @"..\..\data\polygon.txt";
+            string fileName1 = "../../data/polygon.txt";
             StreamReader sr1 = new StreamReader(fileName1);
 
-            string fileName2 = @"..\..\data\line.txt";
+            string fileName2 = "../../data/line.txt";
             StreamReader sr2 = new StreamReader(fileName2);
 
             //DragtInteractiveOverlay for setting the PointStyles of the control points and dragged points.
